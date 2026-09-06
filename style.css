@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#balloonDisplay {
+  font-size: 150px;
+  margin: 30px;
+}
+
+#balloonDisplay p {
+  font-size: 20px;
+}
+
+hr {
+  margin: 25px 0;
+}
+
+#autoPlaceButton.on {
+  border: 3px solid green;
+  background-color: lightgreen;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balloon Incremental</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>🎈 Balloon Incremental</h1>
+  <p>Welcome to Balloon Incremental!</p>
+  <p>You can buy and pop balloons to earn points, but balloons get harder to pop</p>
+  <p>Buy things to help you pop them automatically</p>
+  <h2>🪙 Coins: <span id="coins">0</span></h2>
+  <button onclick="balloon('🔴', 5, 2)">
+    Red Balloon
+  </button>
+  <button onclick="balloon('🔵', 12, 4)">
+    Blue Balloon
+  </button>
+  <button onclick="balloon('🟢', 25, 8)">
+    Green Balloon
+  </button>
+  <button onclick="balloon('🟡', 50, 15)">
+    Yellow Balloon
+  </button>
+  <button onclick="balloon('🩷', 100, 30)">
+    Pink Balloon
+  </button>
+  <button onclick="balloon('⚫', 180, 55)">
+    Black Balloon
+  </button>
+  <button onclick="balloon('⚪', 220, 65)">
+    White Balloon
+  </button>
+  <button onclick="balloon('🟣', 350, 100)">
+    Purple Balloon
+  </button>
+  <button onclick="toggleAutoPlace()" id="autoPlaceButton">
+  Buy Auto Place - 500 coins
+</button>
+  <hr>
+  <div id="balloonDisplay">
+    ↑
+    <p>Choose a balloon!</p>
+  </div>
+  <button onclick="popBalloon()">POP!</button>
+  <p>Balloon HP: <span id="balloonHP">0</span> | Coins: <span id="balloonReward">0</span></p>
+  <hr>
+  <h2>🤖 Helpers</h2>
+  <p>Damage Per Second: <span id="dps">0</span></p>
+  <button onclick="buyDart()">
+    Buy Dart 🎯 - 10 coins
+  </button>
+  <button onclick="buyTack()">
+    Buy Tack 🌀 - 50 coins
+  </button>
+  <button onclick="buyBomb()">
+    Buy Bomb 💣 - 150 coins
+  </button>
+  <button onclick="buyWizard()">
+    Buy Wizard 🧙 - 500 coins
+  </button>
+  <button onclick="buyPlasma()">
+    Buy Plasma ⚡ - 2000 coins
+  </button>
+  <p>Darts: <span id="darts">0</span></p>
+  <p>Tacks: <span id="tacks">0</span></p>
+  <p>Bombs: <span id="bombs">0</span></p>
+  <p>Wizards: <span id="wizards">0</span></p>
+  <p>Plasma: <span id="plasma">0</span></p>
+  <script src="index.js"></script>
+
+</body>
+</html>
