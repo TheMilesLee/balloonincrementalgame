@@ -1,1 +1,1 @@
-[Game]([https://github.io](https://themileslee.github.io/balloonincrementalgame/))
+[Game](https://themileslee.github.io/balloonincrementalgame/)
